@@ -1,0 +1,155 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#Page1{
+    background-color: rgb(31, 35, 39);
+    padding: 5px;
+    height: 350px;
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+.first h4{
+    color: white;
+    float: left;
+}
+.first ul{
+   list-style-type: none;
+    float: right;
+}
+.first a{
+    text-decoration: none;
+    color: wheat;
+}
+.first li{
+    float: left;
+}
+.first a:hover {
+  border-bottom: 2px solid red;
+}
+
+#second{
+   overflow: hidden;
+   display: inline-block;
+   width: 100%;
+   padding: 10px;
+}
+#second img{
+    float: right;
+    width: 50%;
+}
+.second{
+    width: 40%;
+    float: left;
+}
+.second h2{
+    color: white;
+}
+.second p{
+    color: wheat;
+    font-size: larger;
+    text-align: justify; 
+}
+.second ul{
+    padding:15px;
+}
+.second a{
+    background-color: rgb(149, 149, 253);
+    color: white;
+    text-decoration: none; 
+    padding: 10px; 
+    border-radius: 7px
+}
+.second a:hover {
+  border-bottom: 2px solid red;
+}
+
+@media (max-width:500px){
+    .second{
+        width:100%;
+        font-size: small;
+    }
+}
+
+
+
+
+
+
+
+#portfolio{
+    height: 210px;
+    overflow: hidden;
+    width: 100%;
+}
+#portfolio img{
+  width: 30%;
+  float: left;
+  border-radius: 70px;
+  padding: 20px;
+  height: 210px;
+}
+#portfolio a{
+    color: white;
+    text-decoration: none;
+}
+.port{
+    background-color: rgb(31, 35, 39);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+#experience h2{
+    border-bottom: 2px solid black;
+}
+#experience{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#contact{
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+}
+:hover #contact a{
+    font-size: 50px;
+}
+
+#skills h2{
+    border-bottom: 2px solid black;
+}
+#education h2{
+    border-bottom: 2px solid black;
+}
+#project h2{
+    border-bottom: 2px solid black;
+}
+.project img{
+    width: 60%;
+    /* float: left; */
+    padding: 10px;
+}
+.project a{
+    color: white;
+    background-color: rgb(153, 153, 235);
+    padding: 5px;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width:500px){
+    #portfolio{
+        width:100%;
+        font-size: small;
+        height: auto;
+    }
+}
+
+
+
