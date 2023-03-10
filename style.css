@@ -97,3 +97,11 @@
 #Page4 span{
     border-bottom: 2px solid red;
 }
+@media (max-width:500px) {
+    #contact{
+        width:100%
+    }
+    #form{
+        width:100%;
+    }
+}
