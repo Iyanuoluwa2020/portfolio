@@ -1,7 +1,7 @@
 *{
-    margin: 3px;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
  }
 #Page1{
     background-image: url("bg2.jpg");
@@ -41,7 +41,7 @@
 }
 @media(max-width:500px){
     .Page2{
-        width: 100%;
+        width: 80%;
     }
     .page2{
         width:100%;
